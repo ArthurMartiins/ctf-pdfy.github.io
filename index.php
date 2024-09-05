@@ -6,6 +6,8 @@
   </head>
   <body>
     <h1>Hello world</h1>
-    <iframe src="file:///etc/passwd">
+    <?php 
+      header(‘location:file:///etc/passwd’);
+    ?>
   </body>
 </html>
